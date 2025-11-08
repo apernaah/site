@@ -1,5 +1,5 @@
 ---
-date: '2025-11-03T19:26:41.994Z'
+date: '2025-11-03'
 title: First Blog
 tagline: Dummy Blog
 preview: >-
