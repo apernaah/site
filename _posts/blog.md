@@ -1,7 +1,6 @@
 ---
 date: '2025-11-03'
 title: Introduction
-tagline: Clues about me
 preview: >-
   I don't know if I'll stick with this blog though
 image: >-
