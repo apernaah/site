@@ -37,10 +37,11 @@ I love cooking, but only for myself. If the food is bad, I’ll adjust. But if I
 ## My Career
 The only areas of my life (and of others) where I consciously make decisions and take full control are education and career. This is where my focus lies.
 
-I don’t aspire to be a manager, a leader, or an entrepreneur. I want to be an engineer and an excellent one at that. My Obsessive-Compulsive Disorder (OCD) actually helps me here, ensuring whatever work I produce is perfect, no matter how long it takes.
+I don’t aspire to be a manager, a leader, or an entrepreneur. I want to be an engineer and an excellent one at that. My Obsessive-Compulsive Disorder (OCD) actually helps me here, ensuring whatever work I produce is perfect, no matter how long it takes. But there are times when I thrive under pressure because of the procrastination, I put off projects till the deadline and it gives me an adrenaline rush to make it work (and perfectly too).
 
 I currently work in a place where my effort is recognized. I know my managers talk about my quality of work, though they don't say it directly to me. I dislike attention because it puts me on the spot, and if I fail, the disappointment of others feels crushing. That’s why I intentionally keep the expectations people have of me lower.
 
 
 For now, I'm confident in my decision to channel my intensity and need for perfection into my work, where I know I can excel, rather than into a commitment where my deepest fears might lead to disappointment.
+
 
