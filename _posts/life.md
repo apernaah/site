@@ -1,3 +1,12 @@
+---
+date: '2025-11-20'
+title: My Life going forward
+preview: >-
+  How I envision my life to be
+image: >-
+  https://picsum.photos/1920/1080?random
+---
+
 # The life I'm choosing
 
 I’m approaching 25, and I need to be upfront about something: I never want to get married. This isn't a sudden, rebellious decision; it’s a deeply held conviction I've had since I was young.
@@ -31,5 +40,6 @@ The only areas of my life (and of others) where I consciously make decisions and
 I don’t aspire to be a manager, a leader, or an entrepreneur. I want to be an engineer and an excellent one at that. My Obsessive-Compulsive Disorder (OCD) actually helps me here, ensuring whatever work I produce is perfect, no matter how long it takes.
 
 I currently work in a place where my effort is recognized. I know my managers talk about my quality of work, though they don't say it directly to me. I dislike attention because it puts me on the spot, and if I fail, the disappointment of others feels crushing. That’s why I intentionally keep the expectations people have of me lower.
+
 
 For now, I'm confident in my decision to channel my intensity and need for perfection into my work, where I know I can excel, rather than into a commitment where my deepest fears might lead to disappointment.
