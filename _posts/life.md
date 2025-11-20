@@ -35,7 +35,7 @@ I want to emphasize this isn't selfishness; it’s a profound fear of failure. I
 I love cooking, but only for myself. If the food is bad, I’ll adjust. But if I serve it to someone else and they dislike it, or worse, get sick, I feel that same dread. It triggers the fear that I might accidentally harm or neglect a loved one, just like I was afraid of making a mistake that could hurt my fragile grandparents.
 
 ## My Career
-The only areas of my life (and of others) where I consciously make decisions and take full control are my education and my career. This is where my focus lies.
+The only areas of my life (and of others) where I consciously make decisions and take full control are education and career. This is where my focus lies.
 
 I don’t aspire to be a manager, a leader, or an entrepreneur. I want to be an engineer and an excellent one at that. My Obsessive-Compulsive Disorder (OCD) actually helps me here, ensuring whatever work I produce is perfect, no matter how long it takes.
 
@@ -43,3 +43,4 @@ I currently work in a place where my effort is recognized. I know my managers ta
 
 
 For now, I'm confident in my decision to channel my intensity and need for perfection into my work, where I know I can excel, rather than into a commitment where my deepest fears might lead to disappointment.
+
