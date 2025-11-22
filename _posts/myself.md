@@ -1,3 +1,12 @@
+---
+date: '2025-11-22'
+title: Finding myself
+preview: >-
+  how far I have reached
+image: >-
+  https://picsum.photos/1920/1080?random
+---
+
 # Finding myself
 
 ### Explicit warning, triggering and nsfw topics ahead:
