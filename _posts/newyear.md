@@ -38,7 +38,7 @@ The last 20 days have been a blur of highstreet shopping. I’ve visited almost 
 
 3. The TK Maxx Encounter: A lady at the store laughed or smiled at me while I was buying a single skirt,no carry bag, no other items. I just put it in my backpack, It was awkward, but I survived it.
 
-4. The Hold Ups: I asked for hold ups (thigh highs) at one shop; the assistant asked, "For women?" and I found myself firmly answering, "Yes, for women."
+4. The Hold Ups: I asked for hold ups (thigh highs) at one shop; the assistant asked, "For women?" and I found myself firmly answering, "Yes, for women." unfortunately there was no hold ups so i bought some hair clips and left.
 
 # The In Between
 
