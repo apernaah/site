@@ -44,7 +44,7 @@ The last 20 days have been a blur of highstreet shopping. I’ve visited almost 
 
 I’m currently navigating a strange middle ground. My roommates are understanding, but I still feel a bit "weird" walking around in pyjamas, or skirts while my body is still in the early stages of this journey.
 
-Socially, it’s a tightrope. I have photos in my new dresses that make me feel beautiful, people tell me I look cute! but I can't share them with everyone. My brother has made it clear he would block me if I send him. It’s a reminder that while some doors have opened, others remain heavy. If you want to see those photos and follow the real journey, you’ll have to find me on Instagram.
+Socially, it’s a tightrope. I have photos in my new dresses that make me feel beautiful, people tell me I look cute! but I can't share them with everyone. My brother has made it clear he would block me if I send him. It’s a reminder that while some doors have opened, others remain heavy. If you want to see those photos and follow the real journey, you’ll have to find me on Instagram. I'm apernaah everywhere.
 
 ## What’s Next
 
