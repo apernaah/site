@@ -1,8 +1,8 @@
 ---
 date: '2026-01-20'
-title: Transphobes, they walk among us
+title: Transphobes in disguise
 preview: >-
-Consider this as a vent
+  Consider this as a vent
 image: >-
   https://picsum.photos/1920/1080?random
 ---
