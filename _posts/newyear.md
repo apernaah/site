@@ -4,7 +4,7 @@ title: New Year, New name, Same me
 preview: >-
   The Year of Aparna, I guess
 image: >-
-  https://picsum.photos/1920/1080?random
+  https://picsum.photos/1920/1080?4
 ---
 
 # Halloween Manifestation
