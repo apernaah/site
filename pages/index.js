@@ -1,16 +1,57 @@
 import { useRef } from "react";
- import { useRef } from "react";
 import Header from "../components/Header";
 import Socials from "../components/Socials";
 import { useIsomorphicLayoutEffect } from "../utils";
-@@ -48,74 +48,77 @@
+import { stagger } from "../animations";
+import Footer from "../components/Footer";
+import Head from "next/head";
+import Button from "../components/Button";
+import Link from "next/link";
+import Cursor from "../components/Cursor";
+
+// Local Data
+import data from "../data/portfolio.json";
+
+export default function Home() {
+  // Ref
+  const workRef = useRef();
+  const aboutRef = useRef();
+  const textOne = useRef();
+  const textTwo = useRef();
+  const textThree = useRef();
+  const textFour = useRef();
+  const textFive = useRef();
+
+  // Handling Scroll
+  const handleWorkScroll = () => {
+    window.scrollTo({
+      top: workRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const handleAboutScroll = () => {
+    window.scrollTo({
+      top: aboutRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useIsomorphicLayoutEffect(() => {
+    stagger(
+      [textOne.current, textTwo.current, textThree.current, textFour.current, textFive.current],
+      { y: 40, x: -10, transform: "scale(0.95) skew(10deg)" },
+      { y: 0, x: 0, transform: "scale(1)" }
+    );
   }, []);
 
   return (
-    <div className={`relative ${data.showCursor && "cursor-none"}`}>
     <div 
       className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed ${data.showCursor && "cursor-none"}`}
-      style={{ backgroundImage: "url('/bg-image.jpg')" }}  >
+      style={{ backgroundImage: "url('/bg-image.jpg')" }}
+    >
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
@@ -60,7 +101,7 @@ import { useIsomorphicLayoutEffect } from "../utils";
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
-
+        
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
         </div>
         {/* This button should not go into production */}
