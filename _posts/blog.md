@@ -4,7 +4,7 @@ title: Introduction
 preview: >-
   I don't know if I'll stick with this blog though
 image: >-
-  https://picsum.photos/1920/1080?random0
+  https://picsum.photos/1920/1080?0
 ---
  
 # Who am I
