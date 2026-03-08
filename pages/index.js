@@ -49,9 +49,8 @@ export default function Home() {
 
   return (
     <div 
-      className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed ${data.showCursor && "cursor-none"}`}
-      style={{ backgroundImage: "url('/bg-image.jpg')" }}
-    >
+  className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed bg-[url('/light-bg.jpg')] dark:bg-[url('/dark-bg.jpg')] ${data.showCursor && "cursor-none"}`}
+>
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
