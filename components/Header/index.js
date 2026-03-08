@@ -84,11 +84,9 @@ const Header = ({ head }) => {
           </>
         )}
       </Popover>
-      <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
-      >
+    <div
+  className="mt-10 hidden flex-row items-center justify-between sticky bg-transparent text-black dark:text-white top-0 z-10 tablet:flex"
+>
         <h1
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
