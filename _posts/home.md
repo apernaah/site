@@ -7,6 +7,8 @@ image: >-
   https://picsum.photos/1920/1080?6
 ---
 
+FYI: This is going to be a long one.
+
 I initially didn't have any plans to go home for my birthday, but then my friend Riya mentioned she was spending her 25th birthday here in the UK. So, I booked an Emirates flight from Stansted to Kochi to visit my family for three weeks instead. I arrived Kochi on the morning of January 29th and immediately demolished a breakfast of porotta, beef, and chicken (because I can), all washed down with coffee.
 
 On a quick side note: 
@@ -49,3 +51,5 @@ She: "Oh my god, just kill me already."
 (Long story short about the saree, I bought two sarees from Kalyan Silks and two blouses from amazon)
 
 This post got way too long, so I think it's time to wrap up this episode here.
+
+PS: Sorry for the long one, had to take out my whole on this.
