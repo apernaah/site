@@ -1,4 +1,4 @@
-import { useRef } from "react";
+ import { useRef } from "react";
 import Header from "../components/Header";
 import Socials from "../components/Socials";
 import { useIsomorphicLayoutEffect } from "../utils";
@@ -48,7 +48,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={`relative ${data.showCursor && "cursor-none"}`}>
+    <div 
+      className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed ${data.showCursor && "cursor-none"}`}
+      style={{ backgroundImage: "url('/bg-image.jpg')" }}
+    >
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
