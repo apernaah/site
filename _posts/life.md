@@ -4,7 +4,7 @@ title: My Life going forward
 preview: >-
   How I envision my life to be
 image: >-
-  https://picsum.photos/1920/1080?random
+  https://picsum.photos/1920/1080?1
 ---
 
 # The life I'm choosing
@@ -43,5 +43,6 @@ I currently work in a place where my effort is recognized. I know my managers ta
 
 
 For now, I'm confident in my decision to channel my intensity and need for perfection into my work, where I know I can excel, rather than into a commitment where my deepest fears might lead to disappointment.
+
 
 
