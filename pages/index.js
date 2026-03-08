@@ -1,57 +1,17 @@
 import { useRef } from "react";
+ import { useRef } from "react";
 import Header from "../components/Header";
 import Socials from "../components/Socials";
 import { useIsomorphicLayoutEffect } from "../utils";
-import { stagger } from "../animations";
-import Footer from "../components/Footer";
-import Head from "next/head";
-import Button from "../components/Button";
-import Link from "next/link";
-import Cursor from "../components/Cursor";
-
-// Local Data
-import data from "../data/portfolio.json";
-
-export default function Home() {
-  // Ref
-  const workRef = useRef();
-  const aboutRef = useRef();
-  const textOne = useRef();
-  const textTwo = useRef();
-  const textThree = useRef();
-  const textFour = useRef();
-  const textFive = useRef();
-
-  // Handling Scroll
-  const handleWorkScroll = () => {
-    window.scrollTo({
-      top: workRef.current.offsetTop,
-      left: 0,
-      behavior: "smooth",
-    });
-  };
-
-  const handleAboutScroll = () => {
-    window.scrollTo({
-      top: aboutRef.current.offsetTop,
-      left: 0,
-      behavior: "smooth",
-    });
-  };
-
-  useIsomorphicLayoutEffect(() => {
-    stagger(
-      [textOne.current, textTwo.current, textThree.current, textFour.current, textFive.current],
-      { y: 40, x: -10, transform: "scale(0.95) skew(10deg)" },
-      { y: 0, x: 0, transform: "scale(1)" }
-    );
+@@ -48,74 +48,77 @@
   }, []);
 
   return (
+    <div className={`relative ${data.showCursor && "cursor-none"}`}>
     <div 
-      className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed bg-[url('/light-bg.jpg')] dark:bg-[url('/dark-bg.jpg')] ${data.showCursor && "cursor-none"}`}
+      className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed ${data.showCursor && "cursor-none"}`}
+      style={{ backgroundImage: "url('/bg-image.jpg')" }}
     >
-      {/* --- DUAL IMAGE RESPONSIVE WRAPPER --- */}
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
@@ -93,4 +53,32 @@ export default function Home() {
             </h3>
             <h3
               ref={textFive}
-              className="text-6xl tablet:text-4xl laptop:text-4xl laptopl:text-6xl p
+              className="text-6xl tablet:text-4xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+            >
+              {data.headerTaglineFive}
+            </h3>
+          </div>
+
+          <Socials className="mt-2 laptop:mt-5" />
+        </div>
+
+        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+        </div>
+        {/* This button should not go into production */}
+        {process.env.NODE_ENV === "development" && (
+          <div className="fixed bottom-5 right-5">
+            <Link href="/edit">
+              <Button type="primary">Edit Data</Button>
+            </Link>
+          </div>
+        )}
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+            {data.aboutpara}
+          </p>
+        </div>
+        <Footer />
+      </div>
+    </div>
+  );
+}
