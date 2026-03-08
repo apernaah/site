@@ -4,7 +4,7 @@ title: Changes
 preview: >-
    The changes, the update, whatever
 image: >-
-  https://picsum.photos/1920/1080?random
+  https://picsum.photos/1920/1080?3
 ---
 # The changes, the update, whatever
 
