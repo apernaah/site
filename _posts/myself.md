@@ -4,7 +4,7 @@ title: Finding myself
 preview: >-
   how far I have reached
 image: >-
-  https://picsum.photos/1920/1080?random
+  https://picsum.photos/1920/1080?2
 ---
 
 # Finding myself
