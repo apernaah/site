@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <div 
    className={`relative min-h-screen w-full bg-cover bg-center bg-no-repeat tablet:bg-fixed ${data.showCursor && "cursor-none"}`}
-      style={{ backgroundImage: "url('/firefly-bg.png')" }}
+      style={{ backgroundImage: "url('/Firefly.png')" }}
     >
       {data.showCursor && <Cursor />}
       <Head>
