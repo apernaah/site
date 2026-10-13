@@ -34,7 +34,7 @@ const Header = ({ head }) => {
                 {data.darkMode && (
                   <Button
                     onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
+                      setTheme(theme === "light" ? "light" : "dark")
                     }
                   >
                     <img
@@ -71,13 +71,13 @@ const Header = ({ head }) => {
                 <div className="grid grid-cols-1">
                   <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
                     <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
-                  <Button onClick={() => window.open("mailto:hello@apernaah.in")}>Contact</Button>
+                  <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
                   <Button onClick={() => router.push("/")} classes="first:ml-1">Home</Button>
                   <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
-                    <Button onClick={() => window.open("mailto:hello@apernaah.in")}>Contact</Button>
+                    <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
                 </div>
               )}
             </Popover.Panel>
@@ -97,7 +97,7 @@ const Header = ({ head }) => {
           <div className="flex">
              <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
               <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
-            <Button onClick={() => window.open("mailto:hello@apernaah.in")}>Contact</Button>
+            <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -113,7 +113,7 @@ const Header = ({ head }) => {
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
             <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
-            <Button onClick={() => window.open("mailto:hello@apernaah.in")}>Contact</Button>
+            <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
 
             {mounted && theme && data.darkMode && (
               <Button
