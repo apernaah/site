@@ -2,7 +2,7 @@
 date: '2025-11-03'
 title: Introduction
 preview: >-
-  I don't know if I'll stick with this blog though
+  Random thoughts in upcoming blogs
 image: >-
   https://picsum.photos/1920/1080?0
 ---
