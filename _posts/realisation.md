@@ -1,12 +1,9 @@
 ---
 date: '2026-10-17'
 title: The realisation
-preview: >-
-exploring, realising and transition
-image: >-
-  https://picsum.photos/1920/1080?8
+preview: exploring, realising and transition
+image: https://picsum.photos/1920/1080?8
 ---
-
 # Realising who I am
 
 It’s been almost a year since I came out. Looking back, this past year has been a period of profound realisation, exploration, and transition. From visiting Birmingham to meet Riya twice and India, to traveling to Argentina as myself where I came out to the Debian community and proudly wore a saree to the conference dinner... so much has shifted. I have plenty of stories from these trips, but I'll save those for separate posts.
