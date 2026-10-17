@@ -3,7 +3,6 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
-// Local Data
 import data from "../../data/portfolio.json";
 
 const Header = ({ head }) => {
@@ -19,22 +18,23 @@ const Header = ({ head }) => {
 
   return (
     <>
+      {/* Mobile Header */}
       <Popover className="block tablet:hidden mt-5">
         {({ open }) => (
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
               <h1
                 onClick={() => router.push("/")}
-                className="font-medium p-2 laptop:p-0 link"
+                className="font-medium p-2 laptop:p-0 link text-black dark:text-white cursor-pointer"
               >
                 {name}.
               </h1>
 
-              <div className="flex items-center">
-                {data.darkMode && (
+              <div className="flex items-center gap-2">
+                {mounted && data.darkMode && (
                   <Button
                     onClick={() =>
-                      setTheme(theme === "light" ? "light" : "dark")
+                      setTheme(theme === "dark" ? "light" : "dark")
                     }
                   >
                     <img
@@ -42,11 +42,12 @@ const Header = ({ head }) => {
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
-                    ></img>
+                      alt="Theme Toggle"
+                    />
                   </Button>
                 )}
 
-                <Popover.Button>
+                <Popover.Button className="p-2">
                   <img
                     className="h-5"
                     src={`/images/${
@@ -58,45 +59,49 @@ const Header = ({ head }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
-                  ></img>
+                    alt="Menu Toggle"
+                  />
                 </Popover.Button>
               </div>
             </div>
+
             <Popover.Panel
-              className={`absolute right-0 z-10 w-11/12 p-4 ${
-                theme === "dark" ? "bg-slate-800" : "bg-white"
+              className={`absolute right-4 z-20 w-11/12 p-4 ${
+                theme === "dark" ? "bg-slate-800 text-white" : "bg-white text-black"
               } shadow-md rounded-md`}
             >
               {!head ? (
-                <div className="grid grid-cols-1">
+                <div className="grid grid-cols-1 gap-2">
                   <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
-                    <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
+                  <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
                   <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
                 </div>
               ) : (
-                <div className="grid grid-cols-1">
-                  <Button onClick={() => router.push("/")} classes="first:ml-1">Home</Button>
+                <div className="grid grid-cols-1 gap-2">
+                  <Button onClick={() => router.push("/")}>Home</Button>
                   <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
-                    <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
+                  <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
                 </div>
               )}
             </Popover.Panel>
           </>
         )}
       </Popover>
-    <div
-  className="mt-10 hidden flex-row items-center justify-between sticky bg-transparent text-black dark:text-white top-0 z-10 tablet:flex"
->
+
+      {/* Desktop Header */}
+      <div
+        className="mt-10 hidden flex-row items-center justify-between sticky bg-transparent text-black dark:text-white top-0 z-10 tablet:flex"
+      >
         <h1
           onClick={() => router.push("/")}
-          className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+          className="font-medium cursor-pointer mob:p-2 laptop:p-0 text-black dark:text-white"
         >
           {name}.
         </h1>
         {!head ? (
-          <div className="flex">
-             <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
-              <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
+          <div className="flex items-center">
+            <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
+            <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
             <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
             {mounted && theme && data.darkMode && (
               <Button
@@ -105,12 +110,13 @@ const Header = ({ head }) => {
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt="Theme Toggle"
+                />
               </Button>
             )}
           </div>
         ) : (
-          <div className="flex">
+          <div className="flex items-center">
             <Button onClick={() => router.push("/")}>Home</Button>
             <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
             <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
@@ -122,7 +128,8 @@ const Header = ({ head }) => {
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt="Theme Toggle"
+                />
               </Button>
             )}
           </div>
