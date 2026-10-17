@@ -73,7 +73,6 @@ const Header = ({ head }) => {
             >
               {!head ? (
                 <div className="grid grid-cols-1 gap-2">
-                  <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
                   <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
                   <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
                 </div>
@@ -101,7 +100,6 @@ const Header = ({ head }) => {
         </h1>
         {!head ? (
           <div className="flex items-center">
-            <Button onClick={() => router.push("https://github.com/apernaah")}>GitHub</Button>
             <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
             <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
             {mounted && theme && data.darkMode && (
