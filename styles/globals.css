@@ -17,7 +17,7 @@ body {
   pointer-events: none;
   z-index: 100;
   top: -20px;
-  height: 20px;
+  height: 40px;
   width: 100vw;
   opacity: 0.5;
   filter: blur(40px);
