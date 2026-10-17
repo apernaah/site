@@ -1,6 +1,6 @@
 ---
 date: '2026-10-17'
-title: The realisation
+title: Realisation
 preview: exploring, realising and transition
 image: https://picsum.photos/1920/1080?8
 ---
