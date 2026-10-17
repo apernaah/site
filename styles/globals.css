@@ -16,8 +16,8 @@ body {
   position: absolute;
   pointer-events: none;
   z-index: 100;
-  top: 0px;
-  height: 0px;
+  top: -20px;
+  height: 20px;
   width: 100vw;
   opacity: 0.5;
   filter: blur(40px);
