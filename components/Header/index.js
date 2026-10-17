@@ -3,6 +3,7 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
+// Local Data
 import data from "../../data/portfolio.json";
 
 const Header = ({ head }) => {
@@ -18,7 +19,7 @@ const Header = ({ head }) => {
 
   return (
     <>
-      {/* Mobile Header */}
+      {/* Mobile Navigation Header */}
       <Popover className="block tablet:hidden mt-5">
         {({ open }) => (
           <>
@@ -47,15 +48,15 @@ const Header = ({ head }) => {
                   </Button>
                 )}
 
-                <Popover.Button className="p-2">
+                <Popover.Button className="p-2 focus:outline-none">
                   <img
                     className="h-5"
                     src={`/images/${
                       !open
-                        ? theme === "dark"
-                          ? "menu-white.svg"
-                          : "menu.svg"
-                        : theme === "light"
+                        ? mounted && theme === "light"
+                          ? "menu.svg"
+                          : "menu-white.svg"
+                        : mounted && theme === "light"
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
@@ -78,7 +79,7 @@ const Header = ({ head }) => {
                 </div>
               ) : (
                 <div className="grid grid-cols-1 gap-2">
-                  <Button onClick={() => router.push("/")}>Home</Button>
+                  <Button onClick={() => router.push("/")} classes="first:ml-1">Home</Button>
                   <Button onClick={() => router.push("https://blog.apernaah.in")}>Blog</Button>
                   <Button onClick={() => window.open("mailto:heylo@apernaah.in")}>Contact</Button>
                 </div>
@@ -88,7 +89,7 @@ const Header = ({ head }) => {
         )}
       </Popover>
 
-      {/* Desktop Header */}
+      {/* Desktop Navigation Header */}
       <div
         className="mt-10 hidden flex-row items-center justify-between sticky bg-transparent text-black dark:text-white top-0 z-10 tablet:flex"
       >
