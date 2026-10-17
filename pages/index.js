@@ -60,7 +60,7 @@ export default function Home() {
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
 
-      <div className="container mx-auto mb-10">
+      <div className="container mx-auto pb-10">
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
